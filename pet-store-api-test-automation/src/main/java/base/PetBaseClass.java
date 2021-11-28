@@ -19,9 +19,9 @@ public class PetBaseClass {
 
 
     public void createPet(Long id) throws IOException {
-        URL file = Resources.getResource("pet.json");//jsonı okunabilir hale getiriyor
-        String myJson = Resources.toString(file, Charset.defaultCharset());//içindekileri stringe ceviriyor.
-        JSONObject petObject = new JSONObject(myJson);// jsonobject metodları için cevirdik.
+        URL file = Resources.getResource("pet.json");
+        String myJson = Resources.toString(file, Charset.defaultCharset());
+        JSONObject petObject = new JSONObject(myJson);
 
         petObject.put("id", id);
         petObject.getJSONObject("category").put("id", id);
