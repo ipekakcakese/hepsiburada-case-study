@@ -9,6 +9,6 @@
 - The tests were run with Petstore [Api Link](https://petstore.swagger.io/v2).
 
 ## Files
-- There are manual test cases in the ```test-cases\Hepsiburada-Manuel-Test-Cases.xlsx``` directory.
-- There is a analysis document in the ```analysis\Hepsiburada-Analysis-Document.doc``` directory.
+- There are manual test cases in the ```test-cases\Hepsiburada-Manual-Test-Cases.xlsx``` directory.
+- There is a analysis document in the ```analysis\Hepsiburada-Analysis-Document.docx``` directory.
 
